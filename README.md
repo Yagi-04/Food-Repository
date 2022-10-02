@@ -1,10 +1,8 @@
-It's live, Try it on https://masa-finder-george.herokuapp.com/
-﻿##
- 
+
  **Food Classification with DenseNet-161**
 ![foodbanner](https://www.vision.ee.ethz.ch/datasets_extra/food-101/static/img/food-101.jpg)
 
-Recent growth in nutrition related diseases globally have increased awareness in keeping healthy nutritional habits. Healthy diets reduce the risks of reactions to food intolerance, weight problems, malnutrition and some forms of cancer. There are several applications in existance with which we can manually keep track of what we eat and identify food items before consumption. These applications however require that previous experience with the food item for easy identification. An important question however is: ***what happens if we see a food item for the first time and need to identify it?*** Automated tools of food identification will be of help in such case.
+
 The advent of Convolutional Neural Networks (CNN) and deep learning based architectures have opened opportunities for the realization of such automatic tools. Indeed, a lot of mileage has already been made in neural networks based image food classification. However, there are still gaps in accuracy of existing methods implemented. In response, we propose a technique based on a pretrained **Dense-Net-161**, and we enhance class separability using successive augmentation of the data before feeding it to the model. To evaluate our proposed architecture, we have conducted experimental results on a benchmark dataset (Food-101). Our results show better performance with respect to existing approaches. Specifically, we obtained a Top-1 accuracy of 93.27% and Top-5 accuracy around 99.02% on the Food-101
 dataset).
 
